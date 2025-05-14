@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <android.widget.HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1050dp"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/page1"
+                android:layout_width="770dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="Page 1"
+                android:src="@drawable/page1" />
+
+            <ImageView
+                android:id="@+id/page2"
+                android:layout_width="770dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="Page 2"
+                android:src="@drawable/page2" />
+
+            <ImageView
+                android:id="@+id/page3"
+                android:layout_width="770dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="Page 3"
+                android:src="@drawable/page3" />
+
+            <ImageView
+                android:id="@+id/page4"
+                android:layout_width="770dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="Page 4"
+                android:src="@drawable/page4" />
+
+            <ImageView
+                android:id="@+id/page5"
+                android:layout_width="770dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="Page 5"
+                android:src="@drawable/page5" />
+
+            <ImageView
+                android:id="@+id/page6"
+                android:layout_width="770dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="Page 6"
+                android:src="@drawable/page6" />
+
+            <ImageView
+                android:id="@+id/page7"
+                android:layout_width="770dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="Page 7"
+                android:src="@drawable/page7" />
+        </LinearLayout>
+    </android.widget.HorizontalScrollView>
+
+    <!-- 버튼 두 개 -->
+
+    <Button
+        android:id="@+id/btn_retype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9CBD9C"
+        android:text="수정"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9CBD9C"
+        android:text="전송"
+        android:textSize="24sp" />
+
+</LinearLayout>
